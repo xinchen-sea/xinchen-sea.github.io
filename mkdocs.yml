@@ -11,8 +11,8 @@ repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 
 theme:
   name: material
-  logo: logo.ico
-  favicon: logo.ico
+  logo: bql.ico
+  favicon: bql.ico
   icon:
     admonition:
       note: octicons/tag-16
