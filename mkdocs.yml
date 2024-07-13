@@ -12,8 +12,8 @@ repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 theme:
   name: material
   language: 'zh'
-  logo: style/bql.ico
-  favicon: style/bql.ico    #网站图标
+  logo: assets/bql.ico
+  favicon: assets/bql.ico    #网站图标
   #调色板
   palette:
     # Palette（调色板） toggle for light mode(浅色模式)
