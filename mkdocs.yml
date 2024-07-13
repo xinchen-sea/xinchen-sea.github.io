@@ -50,11 +50,11 @@ theme:
     code: Roboto Mono
   alternate:
     - name: English
-       link: /en/ 
-       lang: en
+        link: /en/ 
+        lang: en
     - name: Chinese
-       link: /zh/
-       lang: zh
+        link: /zh/
+        lang: zh
 
 
 
