@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# 欢迎来到尘心的nabality
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+由于尘心（chenxin）重名的比较多，故改名心尘大海（xinchen-sea）
+本网页用于记录笔者的包括但不限于笔记和心得
+如果你觉得我的nabality（陈词滥调）对你有用的话，不妨动动小手点一个star！
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+!!!可能会有的东西
+   施工中......
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
