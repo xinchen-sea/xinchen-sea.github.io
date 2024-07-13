@@ -1,10 +1,10 @@
-
+#info(信息)
 site_name: chenxin's mkdocs
 
 theme: material
 
 palette:
-  # Palette toggle for light mode(浅色模式)
+  # Palette（调色板） toggle for light mode(浅色模式)
    - scheme: default
      toggle:
        icon: material/brightness-7 
