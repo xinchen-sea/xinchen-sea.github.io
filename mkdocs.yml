@@ -1,5 +1,10 @@
 site_name: chenxin's mkdocs
 
+theme:
+  palette:
+    scheme: slate
+
+
 nav:
   - Home: index.md
   - About: about.md
