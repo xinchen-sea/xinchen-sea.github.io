@@ -11,8 +11,24 @@ repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 
 theme:
   name: material
+  language: 'zh'
   logo: style/bql.ico
   favicon: style/bql.ico    #网站图标
+  #调色板
+  palette:
+    # Palette（调色板） toggle for light mode(浅色模式)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+     # Palette toggle for dark mode（深色模式）
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   icon:
     logo: material/library
     admonition:
@@ -28,13 +44,10 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
-
-#字体
-font: 
-  text: Roboto
-  code: Roboto Mono
-#语言
-language: 'zh'
+  #字体
+  font: 
+    text: Roboto
+    code: Roboto Mono
 
 #extra:
 #  alternate:
@@ -45,21 +58,7 @@ language: 'zh'
 #      link: /zh/
 #      lang: zh
 
-#调色板
-palette:
-    # Palette（调色板） toggle for light mode(浅色模式)
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
 
-     # Palette toggle for dark mode（深色模式）
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   
   
 
