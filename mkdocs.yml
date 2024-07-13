@@ -18,16 +18,16 @@ font:
   code: Roboto Mono
 #语言
 language: 'zh'
-'''
-extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Chinese
-      link: /zh/
-      lang: zh
-'''
+
+#extra:
+#  alternate:
+#    - name: English
+#      link: /en/ 
+#      lang: en
+#    - name: Chinese
+#      link: /zh/
+#      lang: zh
+
 #调色板
 palette:
     # Palette（调色板） toggle for light mode(浅色模式)
