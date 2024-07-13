@@ -1,8 +1,19 @@
+
 site_name: chenxin's mkdocs
 
-theme:
+theme: material
   palette:
-    scheme: slate
+    # Palette toggle for light mode(浅色模式)
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode（深色模式）
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 
 nav:
