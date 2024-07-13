@@ -1,20 +1,48 @@
-#info(信息)
-site_name: chenxin's mkdocs
+#info(信息),banality(陈词滥调)
+site_name: xinchen-sea's banality
+site_author: xinchen-sea
+site_description: 喜欢螺旋式上升的陈词滥调
+# site_url: "https://www.xinchen-sea.com"
 
-theme: material
+# repository(库) information
+repo_name: 'xinchen-sea/nonsense'
+repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 
+
+theme:
+  name: material
+
+#字体
+font: 
+  text: Roboto
+  code: Roboto Mono
+#语言
+language: 'zh'
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Chinese
+      link: /zh/
+      lang: zh
+#调色板
 palette:
-  # Palette（调色板） toggle for light mode(浅色模式)
-   - scheme: default
-     toggle:
-       icon: material/brightness-7 
-       name: Switch to dark mode
+    # Palette（调色板） toggle for light mode(浅色模式)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
 
-  # Palette toggle for dark mode（深色模式）
-   - scheme: slate
-     toggle:
-       icon: material/brightness-4
-       name: Switch to light mode
+     # Palette toggle for dark mode（深色模式）
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  
 
 
 nav:
