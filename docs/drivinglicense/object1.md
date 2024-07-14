@@ -122,8 +122,7 @@
 
 # 十四、	三超记分（注意有没有以外）
 
-	<ul type="none">
-		<li> 1.	超速记分（外外6以下）</li>
+### 1.	超速记分（外外6以下）
 	
 <table border="1">
 	<thead align="center" valign="center">
@@ -135,58 +134,57 @@
 	</tr>
 	</thead>
 	<tbody align="center" valign="center">
-	<tr>
+	  <tr>
 		<td rowspan="4">普通车（xxx以外）</td>
 		<td rowspan="2">普通公路（xxx以外）</td>
 		<td>20-50</td>
 		<td>3</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td>50+</td>
 		<td>6</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td rowspan="2">高速 城快</td>
 		<td>20-50</td>
 		<td>6</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td>50+</td>
 		<td>12</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td rowspan="5">
-		
 		校车<br>
 		中型以上客车<br>
 		中型以上货车<br>
-		危险品车
-			
+		危险品车	
 		</td>
 		<td rowspan="3">普通公路（xxx以外）</td>
 		<td>10-20</td>
 		<td>1</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td>20-50</td>
 		<td>6</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td>50+</td>
 		<td>9</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td rowspan="2">高速 城快</td>
 		<td>20-</td>
 		<td>6</td>
-	</tr>
-	<tr>
+	  </tr>
+	  <tr>
 		<td>20+</td>
 		<td>12</td>
-	</tr>
+	  </tr>
 	</tbody>
 </table>
-		<li>2.	超载记分  </li>
+
+### 2.	超载记分 
 		
 <table border="1">
 	<thead align="center" valign="center">
@@ -236,7 +234,7 @@
 </table>
 
 
-		<li>3.超重记分</li>
+### 3.超重记分
 
 <table border="1">
 	<thead align="center" valign="center">
@@ -270,7 +268,6 @@
 	</tr>
 	</tbody>
 </table>
-	</ul>
 
 
 
