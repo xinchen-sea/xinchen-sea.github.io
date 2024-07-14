@@ -2,7 +2,7 @@
 site_name: xinchen-sea's banality
 site_author: xinchen-sea
 site_description: 喜欢螺旋式上升的陈词滥调
-# site_url: "https://www.xinchen-sea.com"
+site_url: "https://www.xinchen-sea.com"
 
 # repository(库) information
 repo_name: 'xinchen-sea/nonsense'
@@ -77,7 +77,10 @@ extra:
       link: /zh/
       lang: zh
 
-
+theme:
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
 
 nav:
   - Home: index.md
