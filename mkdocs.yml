@@ -25,9 +25,10 @@ extra:
       - accept
       - manage
 
+#插件
 plugins:
   - privacy
-
+  - search
 
 theme:
   name: material
@@ -70,8 +71,8 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-  # 导航栏
   features:
+    # 导航栏功能
     - navigation.instant
     - navigation.instant.prefetch  # 即时预取
     - navigation.instant.progress  # 进度指示条
@@ -84,6 +85,11 @@ theme:
     - navigation.footer            # 在页面底部显示导航链接
     - navigation.path              # 显示导航路径
     - navigation.indexes           # 带有章节索引页
+   
+    # 搜索设置
+    - search.highlight      # 搜索突出显示
+    - search.suggest        # 搜索建议
+    - search.share          # 搜索共享
     
  
 
