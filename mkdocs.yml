@@ -29,6 +29,7 @@ extra:
 plugins:
   - privacy
   - search
+  - tac
 
 theme:
   name: material
