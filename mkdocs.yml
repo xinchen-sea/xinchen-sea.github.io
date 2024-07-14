@@ -106,7 +106,8 @@ extra:
 
 
 extra_css:
-  - 'assets/css/table.css'
+  - 'assets/css/table.css'   # 表格设置
+  - 'assets/css/fonts.css'   # 字体设置
 
 
 
