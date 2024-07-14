@@ -4,6 +4,30 @@
   --md-code-font: "JetBrains Mono";
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between; /* 控制导航项之间的间距 */
+}
+
+.navbar .nav-item {
+  flex: 1; /* 使每个导航项的宽度相同 */
+  text-align: center; /* 使文字居中 */
+}
+
+
+/* 调整内容容器宽度*/
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px; /* 添加内边距以防止文字紧贴边缘 */
+}
+
+@media (max-width: 1440px) {
+  .content {
+    width: 90%;
+  }
+}
+
 
 @media screen and (min-width: 960px) {
   /* body {
