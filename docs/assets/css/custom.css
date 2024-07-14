@@ -336,7 +336,7 @@ button[data-md-color-primary="white"] {
 button {
     background-color: var(--primary-color); /* 应用变量作为按钮的背景颜色 */
     color: #ffffff; /* 设置文字颜色为白色 */
-    padding: 10px 20px; /* 设置按钮内边距 */
+    padding: 5px 10px; /* 设置按钮内边距 */
     border: none; /* 去掉按钮边框 */
     cursor: pointer; /* 设置光标样式为指针 */
     margin: 5px; /* 设置按钮间距 */
