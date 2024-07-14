@@ -78,7 +78,7 @@ theme:
     - navigation.instant.prefetch  # 即时预取
     - navigation.tracking          # 锚点追踪
     - toc.follow                   # 锚点跟随
-    - toc.integrate                # 目录混合
+  #  - toc.integrate                # 目录混合
     - navigation.tabs              # 导航选项卡
   #  - header.autohide              # 滑动隐藏标题
     - navigation.expand            # 导航拓展，默认展开可折叠字部份
