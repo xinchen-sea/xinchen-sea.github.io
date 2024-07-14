@@ -234,7 +234,7 @@
 	</tbody>
 </table>
 
-  3.超重记分
+  3.   超重记分
 
 <table border="1">
 	<thead align="center" valign="center">
