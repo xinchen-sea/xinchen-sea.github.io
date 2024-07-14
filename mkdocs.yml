@@ -54,10 +54,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
+    # auto
+   # - media: "(prefers-color-scheme)"
+   #   to ggle:
+   #     icon: material/link
+   #     name: Switch to light mode
   #一些标签图标
   icon:
     logo: material/library
