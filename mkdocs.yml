@@ -81,6 +81,7 @@ theme:
     - toc.integrate                # 目录混合
     - navigation.tabs              # 导航选项卡
     - navigation.tabs.sticky       # 选项卡固定
+    - header.autohide              # 滑动隐藏标题
     - navigation.expand            # 导航拓展，默认展开可折叠字部份
     - navigation.top               # 提供回到页面顶部的按钮
     - navigation.footer            # 在页面底部显示导航链接
