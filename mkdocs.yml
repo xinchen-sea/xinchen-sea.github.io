@@ -28,12 +28,13 @@ extra:
 plugins:
   - privacy
 
+
 theme:
   name: material
   language: 'zh'
   logo: assets/bql.ico   #logo
   favicon: assets/bql.ico    #网站图标
-  #调色板
+  # 调色板
   palette:
     # Palette（调色板） toggle for light mode(浅色模式)
     - media: "(prefers-color-scheme: light)"
@@ -41,13 +42,13 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode（深色模式）
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  #一些标签图标
   icon:
     logo: material/library
     admonition:
@@ -63,11 +64,30 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+
   #字体
   font: 
     text: Roboto
     code: Roboto Mono
 
+  # 导航栏
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch  # 即时预取
+    - navigation.instant.progress  # 进度指示条
+    - navigation.tracking          # 锚点追踪
+    - toc.follow                   # 锚点跟随
+    - navigation.tabs              # 导航选项卡
+    - navigation.tabs.sticky       # 选项卡固定
+    - navigation.expand            # 导航拓展，默认展开可折叠字部份
+    - navigation.top               # 提供回到页面顶部的按钮
+    - navigation.footer            # 在页面底部显示导航链接
+    - navigation.path              # 显示导航路径
+    - navigation.indexes           # 带有章节索引页
+    
+ 
+
+# 语言切换
 extra:
   alternate:
     - name: English
@@ -77,10 +97,8 @@ extra:
       link: /zh/
       lang: zh
 
-theme:
-  features:
-    - navigation.instant
-    - navigation.instant.prefetch
+
+
 
 nav:
   - Home: index.md
