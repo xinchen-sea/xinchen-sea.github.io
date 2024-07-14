@@ -102,7 +102,7 @@ extra:
       link: none
     - icon: material/forum
       link: https://www.cc98.org
-    - icon: fontawesome/solid/house/chimney/user
+    - icon: fontawesome/solid/house
       link: https://xinchen-sea.github.io/
       
   # 语言切换
