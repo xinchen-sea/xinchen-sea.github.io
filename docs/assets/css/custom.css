@@ -248,3 +248,104 @@ input#mkdocs-content-password {
   vertical-align: sub;
 }
 
+
+button[data-md-color-primary="red"] {
+    --primary-color: #ff0000; /* 设置按钮背景为红色 */
+}
+
+button[data-md-color-primary="pink"] {
+    --primary-color: #ff69b4; /* 设置按钮背景为粉色 */
+}
+
+button[data-md-color-primary="purple"] {
+    --primary-color: #800080; /* 设置按钮背景为紫色 */
+}
+
+button[data-md-color-primary="deep-purple"] {
+    --primary-color: #673ab7; /* 设置按钮背景为深紫色 */
+}
+
+button[data-md-color-primary="indigo"] {
+    --primary-color: #3f51b5; /* 设置按钮背景为靛青色 */
+}
+
+button[data-md-color-primary="blue"] {
+    --primary-color: #2196f3; /* 设置按钮背景为蓝色 */
+}
+
+button[data-md-color-primary="light-blue"] {
+    --primary-color: #03a9f4; /* 设置按钮背景为浅蓝色 */
+}
+
+button[data-md-color-primary="cyan"] {
+    --primary-color: #00bcd4; /* 设置按钮背景为青色 */
+}
+
+button[data-md-color-primary="teal"] {
+    --primary-color: #009688; /* 设置按钮背景为水鸭绿 */
+}
+
+button[data-md-color-primary="green"] {
+    --primary-color: #4caf50; /* 设置按钮背景为绿色 */
+}
+
+button[data-md-color-primary="light-green"] {
+    --primary-color: #8bc34a; /* 设置按钮背景为浅绿色 */
+}
+
+button[data-md-color-primary="lime"] {
+    --primary-color: #cddc39; /* 设置按钮背景为酸橙色 */
+}
+
+button[data-md-color-primary="yellow"] {
+    --primary-color: #ffeb3b; /* 设置按钮背景为黄色 */
+}
+
+button[data-md-color-primary="amber"] {
+    --primary-color: #ffc107; /* 设置按钮背景为琥珀色 */
+}
+
+button[data-md-color-primary="orange"] {
+    --primary-color: #ff9800; /* 设置按钮背景为橙色 */
+}
+
+button[data-md-color-primary="deep-orange"] {
+    --primary-color: #ff5722; /* 设置按钮背景为深橙色 */
+}
+
+button[data-md-color-primary="brown"] {
+    --primary-color: #795548; /* 设置按钮背景为棕色 */
+}
+
+button[data-md-color-primary="grey"] {
+    --primary-color: #9e9e9e; /* 设置按钮背景为灰色 */
+}
+
+button[data-md-color-primary="blue-grey"] {
+    --primary-color: #607d8b; /* 设置按钮背景为蓝灰色 */
+}
+
+button[data-md-color-primary="black"] {
+    --primary-color: #000000; /* 设置按钮背景为黑色 */
+}
+
+button[data-md-color-primary="white"] {
+    --primary-color: #ffffff; /* 设置按钮背景为白色 */
+}
+
+button {
+    background-color: var(--primary-color); /* 应用变量作为按钮的背景颜色 */
+    color: #ffffff; /* 设置文字颜色为白色 */
+    padding: 10px 20px; /* 设置按钮内边距 */
+    border: none; /* 去掉按钮边框 */
+    cursor: pointer; /* 设置光标样式为指针 */
+    margin: 5px; /* 设置按钮间距 */
+    border-radius: 4px; /* 设置按钮圆角 */
+}
+
+
+
+
+
+
+
