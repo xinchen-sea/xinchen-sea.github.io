@@ -1,0 +1,40 @@
+/* 定义宋体 */
+@font-face {
+    font-family: 'SimSun';
+    src: url('docs/assets/fonts/SIMSUN.TTC') format('truetype');
+}
+
+/* 定义方正小标宋简体  */
+@font-face {
+    font-family: 'fzxbsjt';
+    src: url('docs/assets/fonts/方正小标宋简体.TTF') format('truetype');
+}
+
+/* 定义Times New Roman
+@font-face {
+    font-family: 'TNR';
+    src: url('docs/assets/fonts/SIMSUN.TTC') format('truetype');
+} */
+
+/*默认宋体*/
+body {
+    font-family: 'SimSun', sans-serif;
+}
+
+/* 针对具体语言设置不同的字体 
+body:lang(en) {
+    font-family: 'Arial', sans-serif;
+} 
+
+body:lang(zh) {
+    font-family: 'SimSun', sans-serif;
+} */
+
+/* 针对具体元素设置字体 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'fzxbsjt', sans-serif;
+}
+
+p {
+    font-family: 'SimSun', sans-serif;
+}
