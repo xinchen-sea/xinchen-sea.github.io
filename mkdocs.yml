@@ -80,7 +80,7 @@ extra:
 
 
 nav:
-  - Home: else/index.md
+  - Home: index.md
 
 
 
