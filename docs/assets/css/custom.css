@@ -49,6 +49,7 @@
   font-size: inherit;
 }
 
+/*
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #efefef;
   --md-primary-bg-color: #000000;
@@ -79,7 +80,7 @@
   --md-footer-fg-color--light: #fff;
   --md-footer-fg-color--lighter: #fff;
   --md-code-bg-color: #1d1d1d;
-}
+} */
 
 input.md-search__input {
   background-color: #fff;
