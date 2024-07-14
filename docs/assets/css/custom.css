@@ -333,7 +333,7 @@ button[data-md-color-primary="white"] {
     --primary-color: #ffffff; /* 设置按钮背景为白色 */
 }
 
-button {
+/*button {
     background-color: var(--primary-color); /* 应用变量作为按钮的背景颜色 */
     color: #ffffff; /* 设置文字颜色为白色 */
     padding: 5px 10px; /* 设置按钮内边距 */
@@ -341,8 +341,14 @@ button {
     cursor: pointer; /* 设置光标样式为指针 */
     margin: 5px; /* 设置按钮间距 */
     border-radius: 4px; /* 设置按钮圆角 */
-}
+} */
 
+code {
+    background-color: var(--primary-color); /* 应用变量作为背景色 */
+    color: #333; /* 设置前景色（文字颜色） */
+    padding: 10px; /* 可选：设置内边距 */
+    border-radius: 5px; /* 可选：设置圆角 */
+}
 
 
 
