@@ -10,25 +10,54 @@
     src: url('docs/assets/fonts/方正小标宋简体.TTF') format('truetype');
 }
 
-/* 定义Times New Roman
+/* 定义 Times New Roman 常规样式 */
 @font-face {
-    font-family: 'TNR';
-    src: url('docs/assets/fonts/SIMSUN.TTC') format('truetype');
-} */
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMES.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 定义 Times New Roman 粗体样式 */
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESBD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 定义 Times New Roman 斜体样式 */
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* 定义 Times New Roman 粗斜体样式 */
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESBI.TTF') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
 
 /*默认宋体*/
 body {
     font-family: 'SimSun', sans-serif;
 }
 
-/* 针对具体语言设置不同的字体 
+/* 针对具体语言设置不同的字体 */
 body:lang(en) {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
 } 
 
 body:lang(zh) {
     font-family: 'SimSun', sans-serif;
-} */
+} 
 
 /* 针对具体元素设置字体 */
 h1, h2, h3, h4, h5, h6 {
