@@ -123,7 +123,7 @@
 
 ### 十四、	三超记分（注意有没有以外）
 
-  1.	超速记分（外外6以下）
+- 1.超速记分（外外6以下）
 	
   <div class="table-indent">
   <table border="1">
@@ -187,7 +187,7 @@
   </table>
   </div>
 
-  2.	超载记分 
+  - 2.超载记分 
 		
    <div class="table-indent">
    <table border="1">
@@ -238,7 +238,7 @@
    </table>
    </div>
 
-  3.   超重记分
+  - 3.超重记分
 <div class="table-indent">
 <table border="1">
 	<thead align="center" valign="center">
@@ -338,13 +338,11 @@ _5.6	驾驶载货汽车载物超过最大允许总质量未达到百分之三十
   
   7.   号牌扣分
 
-
    | 类别  | 扣分分值 |
    | :---: | :---: |
    | 不按规定安装（装反、螺丝松动） | 	3  |
    | 未悬挂 故意遮挡 | 	9 |
    |  污损伪造变造 | 12 |
-
 
   8.	高速违法
 
