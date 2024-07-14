@@ -10,6 +10,7 @@
     施工中......<br>
 
 <!-- md:default `indigo` -->
+
 原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：     
 The primary color is used for the header, the sidebar, text links and several other components.
 Click on a tile to change the primary color:
