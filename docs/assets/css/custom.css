@@ -4,60 +4,25 @@
   --md-code-font: "JetBrains Mono";
 }
 
-.container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .container {
-    max-width: 800px;
-  }
-
-  .container {
-    width: 90%;
-  }
-}
 
 
-
-/* 调整内容容器宽度 
-.content {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 20px; 
-} 
-@media (max-width: 1440px) {
-  .content {
-    width: 90%;
-  }
-}
 @media screen and (min-width: 960px) {
-  /* body {
-    zoom: 1.1;
-  }
   html {
     font-size: 137.5%;
   }
 }
+
 @media screen and (min-width: 100em) {
   html {
     font-size: 137.5%;
   }
 }
+
 @media screen and (min-width: 125em) {
   html {
     font-size: 137.5%;
   }
-} */
+} 
 
 
 .md-typeset h1, .md-typeset h2 {
