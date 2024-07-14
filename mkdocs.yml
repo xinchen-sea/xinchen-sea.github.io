@@ -75,12 +75,11 @@ theme:
     # 导航栏功能
     - navigation.instant
     - navigation.instant.prefetch  # 即时预取
-    - navigation.instant.progress  # 进度指示条
     - navigation.tracking          # 锚点追踪
     - toc.follow                   # 锚点跟随
     - toc.integrate                # 目录混合
     - navigation.tabs              # 导航选项卡
-    - header.autohide              # 滑动隐藏标题
+  #  - header.autohide              # 滑动隐藏标题
     - navigation.expand            # 导航拓展，默认展开可折叠字部份
     - navigation.top               # 提供回到页面顶部的按钮
     - navigation.footer            # 在页面底部显示导航链接
