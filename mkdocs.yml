@@ -143,9 +143,6 @@ markdown_extensions:
   - pymdownx.magiclink  # 启用自动链接识别的语法扩展
   - pymdownx.superfences  # 启用高级代码块的语法扩展
   - pymdownx.inlinehilite  # 启用内联代码高亮的语法扩展
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji  # 指定使用Twemoji作为表情符号索引
-      emoji_generator: !!python/name:materialx.emoji.to_svg  # 指定使用SVG格式生成表情符号
   - pymdownx.tabbed:
       alternate_style: true  # 启用选项卡式组件，并使用替代样式
   - pymdownx.tasklist:
