@@ -80,7 +80,8 @@
   --md-footer-fg-color--light: #fff;
   --md-footer-fg-color--lighter: #fff;
   --md-code-bg-color: #1d1d1d;
-} */
+} 
+
 
 input.md-search__input {
   background-color: #fff;
@@ -92,7 +93,7 @@ input.md-search__input {
 
 [data-md-color-scheme="slate"] .md-typeset .md-content__button {
   color: #555555;
-}
+} */
 
 .md-copyright {
   font-size: .55rem;
