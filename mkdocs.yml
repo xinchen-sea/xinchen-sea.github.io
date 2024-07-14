@@ -93,7 +93,16 @@ theme:
     - search.share          # 搜索共享
     
  
-
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+    - icon: fontawesome/solid/rss
+      link: none
+    - icon: material/forum
+      link: https://www.cc98.org
+    - icon: fontawesome/solid/home
+      link: https://xinchen-sea.github.io/
 
 extra:
   # 语言切换
