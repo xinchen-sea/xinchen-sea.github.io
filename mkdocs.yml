@@ -109,10 +109,10 @@ extra:
 nav:
   - Home: index.md
   - 驾校:
-    - 
-    - 科目一:
-    - 科目二、三:
-    - 科目四: 
+    - drivinglicense/index.md
+    - 科目一: drivinglicense/object1.md
+    - 科目二、三: drivinglicense/object2&3.md
+    - 科目四: drivinglicense/object4.md
 
 
 
