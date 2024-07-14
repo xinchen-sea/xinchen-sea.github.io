@@ -93,8 +93,9 @@ theme:
     
  
 
-# 语言切换
+
 extra:
+  # 语言切换
   alternate:
     - name: English
       link: /en/ 
@@ -103,6 +104,9 @@ extra:
       link: /zh/
       lang: zh
 
+
+extra_css:
+  - 'assets/css/table.css'
 
 
 
