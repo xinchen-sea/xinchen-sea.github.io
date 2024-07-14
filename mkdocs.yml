@@ -137,8 +137,8 @@ markdown_extensions:
       permalink: true  # 添加目录中的永久链接
       toc_depth: 4     # 设置目录的深度为4级
   - meta  # 处理元数据
-  - def_list  # 启用定义列表
-  - attr_list  # 启用属性列表
+  - def_list    # 启用定义列表
+  - attr_list   # 启用HTML属性列表
   - md_in_html  # 支持在HTML中使用Markdown语法
   - sane_lists  # 对列表的更合理解析
   - admonition  # 启用警告框和注意事项的语法
