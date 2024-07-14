@@ -240,8 +240,8 @@
 
   - 3.超重记分
 
-    <div class="table-indent">
-    <table border="1">
+   <div class="table-indent">
+   <table border="1">
 	<thead align="center" valign="center">
 	<tr>
 		<th>车辆类别</th>
@@ -272,8 +272,8 @@
 		<td>3</td>
 	</tr>
 	</tbody>
-    </table>
-    </div>
+   </table>
+   </div>
 
 ### 十五、	其他记分
   1.	记12分   
