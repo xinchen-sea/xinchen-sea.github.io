@@ -1,15 +1,15 @@
+
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 100%; /* 设置表格宽度 */
+    border-collapse: collapse; /* 合并边框 */
 }
 
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    align: center; 
-    valign: center; /* 居中对齐 */
+    border: 1px solid #000; /* 设置单元格边框 */
+    padding: 8px; /* 设置单元格内边距 */
+    text-align: center; /* 文本居中对齐 */
+    text-valign: center; /*垂直居中*/
 }
-
 
 .table-indent {
     padding-left: 40px;
