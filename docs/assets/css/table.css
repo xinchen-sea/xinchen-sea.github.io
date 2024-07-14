@@ -1,3 +1,15 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* 居中对齐 */
+}
+
+
 .table-indent {
     padding-left: 40px;
 }
