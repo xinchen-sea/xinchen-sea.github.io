@@ -94,6 +94,7 @@ theme:
     
  
 extra:
+  #社交链接
   social:
     - icon: fontawesome/brands/github
       link: https://github.com
@@ -103,8 +104,7 @@ extra:
       link: https://www.cc98.org
     - icon: fontawesome/solid/home
       link: https://xinchen-sea.github.io/
-
-extra:
+      
   # 语言切换
   alternate:
     - name: English
