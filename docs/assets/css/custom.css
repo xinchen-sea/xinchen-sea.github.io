@@ -4,7 +4,7 @@
   --md-code-font: "JetBrains Mono";
 }
 
-.content {
+.container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -12,17 +12,17 @@
 }
 
 @media (min-width: 1200px) {
-  .content {
+  .container {
     max-width: 1000px;
   }
 }
 
 @media (max-width: 1199px) {
-  .content {
+  .container {
     max-width: 800px;
   }
 
-  .content {
+  .container {
     width: 90%;
   }
 }
