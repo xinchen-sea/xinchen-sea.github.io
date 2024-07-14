@@ -1,4 +1,11 @@
 
+
+.table-container {
+    display: flex;
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
 table {
     width: 100%; /* 设置表格宽度 */
     border-collapse: collapse; /* 合并边框 */
@@ -7,9 +14,13 @@ table {
 th, td {
     border: 1px solid #000; /* 设置单元格边框 */
     padding: 8px; /* 设置单元格内边距 */
-    text-align: center; /* 文本居中对齐 */
-    text-valign: center; /*垂直居中*/
 }
+
+
+
+/*    text-align: center; /* 文本居中对齐 */
+/*    text-valign: center; /*垂直居中*/
+
 
 .table-indent {
     padding-left: 40px;
