@@ -41,14 +41,22 @@ theme:
     # Palette（调色板） toggle for light mode(浅色模式)
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: pink
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode（深色模式）
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: indigo
       toggle:
         icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
         name: Switch to light mode
   #一些标签图标
   icon:
