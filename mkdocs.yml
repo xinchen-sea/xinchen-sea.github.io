@@ -114,12 +114,41 @@ extra_css:
 markdown_extensions:
   # 基础Markdown扩展
   - abbr             # 支持缩写
-  - admonition       # 支持警告框
-  - attr_list        # 允许为Markdown元素添加HTML属性
-  - def_list         # 支持定义列表
   - footnotes        # 支持脚注
-  - md_in_html       # 允许在HTML块中使用Markdown
   - tables           # 支持表格
+  - toc:
+      permalink: true  # 添加目录中的永久链接
+      toc_depth: 4     # 设置目录的深度为4级
+  - meta  # 处理元数据
+  - def_list  # 启用定义列表
+  - attr_list  # 启用属性列表
+  - md_in_html  # 支持在HTML中使用Markdown语法
+  - sane_lists  # 对列表的更合理解析
+  - admonition  # 启用警告框和注意事项的语法
+  - pymdownx.keys  # 启用键盘键符号的语法扩展
+  - pymdownx.mark  # 启用标记的语法扩展
+  - pymdownx.tilde  # 启用波浪线的语法扩展
+  - pymdownx.critic  # 启用评论模式的语法扩展
+  - pymdownx.details  # 启用细节块的语法扩展
+  - pymdownx.snippets  # 启用代码片段的语法扩展
+  - pymdownx.magiclink  # 启用自动链接识别的语法扩展
+  - pymdownx.superfences  # 启用高级代码块的语法扩展
+  - pymdownx.inlinehilite  # 启用内联代码高亮的语法扩展
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji  # 指定使用Twemoji作为表情符号索引
+      emoji_generator: !!python/name:materialx.emoji.to_svg  # 指定使用SVG格式生成表情符号
+  - pymdownx.tabbed:
+      alternate_style: true  # 启用选项卡式组件，并使用替代样式
+  - pymdownx.tasklist:
+      custom_checkbox: true  # 启用自定义复选框样式
+  - pymdownx.highlight:
+      anchor_linenums: true  # 启用代码高亮行号锚点
+  - pymdownx.arithmatex:
+      generic: true  # 启用数学公式支持，并使用通用渲染器
+
+
+
+
 
 nav:
   - Home: index.md
