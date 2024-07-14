@@ -109,7 +109,15 @@ extra_css:
   - 'assets/css/table.css'   # 表格设置
   - 'assets/css/fonts.css'   # 字体设置
 
-
+markdown_extensions:
+  # 基础Markdown扩展
+  - abbr             # 支持缩写
+  - admonition       # 支持警告框
+  - attr_list        # 允许为Markdown元素添加HTML属性
+  - def_list         # 支持定义列表
+  - footnotes        # 支持脚注
+  - md_in_html       # 允许在HTML块中使用Markdown
+  - tables           # 支持表格
 
 nav:
   - Home: index.md
