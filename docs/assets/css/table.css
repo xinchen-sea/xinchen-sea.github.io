@@ -6,8 +6,8 @@ table {
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: center; 
-    text-valign: center; /* 居中对齐 */
+    align: center; 
+    valign: center; /* 居中对齐 */
 }
 
 
