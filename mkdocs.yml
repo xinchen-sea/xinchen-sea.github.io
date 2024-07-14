@@ -33,7 +33,7 @@ plugins:
 theme:
   name: material
   language: 'zh'
-  custom_dir: overrides
+  #custom_dir: overrides
   logo: assets/bql.ico   #logo
   favicon: assets/bql.ico    #网站图标
   # 调色板
@@ -109,7 +109,7 @@ extra:
 extra_css:
   - 'assets/css/table.css'   # 表格设置
   - 'assets/css/fonts.css'   # 字体设置
-  - 'assets/css/custom.css'
+  - 'assets/css/custom.css'  # 外观设置
 
 markdown_extensions:
   # 基础Markdown扩展
