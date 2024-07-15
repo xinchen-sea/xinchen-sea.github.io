@@ -57,6 +57,7 @@ theme:
   #一些标签图标
   icon:
     logo: material/library
+    # 标注图标集 Octicons
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
