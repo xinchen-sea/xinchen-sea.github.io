@@ -174,13 +174,13 @@ plugins:
         - en
         - ja
       separator: '[\s\u200b\-]'
-  - git-revision-date-localized:
-      type: datetime
-      timezone: Asia/Shanghai
-      locale: zh
-      enable_creation_date: true
-      exclude:
-        - index.md
+  #- git-revision-date-localized:
+   #   type: datetime
+    #  timezone: Asia/Shanghai
+  #    locale: zh
+  #    enable_creation_date: true
+  #    exclude:
+  #      - index.md
   #- statistics:
   #    page_check_metadata: comment
 
