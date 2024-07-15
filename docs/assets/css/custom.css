@@ -18,7 +18,7 @@
   }
 } 
 
-/* 自定义不同字体类型大小、宽度等参数 */ 
+/* 自定义不同标题字体类型粗细、字母间距等参数 */ 
 .md-typeset h1, .md-typeset h2 {
   font-weight: 600;
 }
@@ -33,15 +33,12 @@
 
 .md-typeset {
   font-size: .7rem;
-}
+}   /*字体大小设置为0.7rem*/
 
-.md-typeset h3 {
-  font-weight: 600;
-}
-
+/* 除了<pre>元素内部的<code>元素之外的所有<code>元素，其字体大小继承父元素的字体大小*/
 .md-typeset code:not(pre code) {
   font-size: inherit;
-}
+}  
 
 
 /* 修改主题颜色参数，有另外的设置
@@ -82,7 +79,7 @@ input.md-search__input {
 }
 
 [data-md-color-scheme="slate"] input.md-search__input {
-  background-color: #fff;
+  background-color: #333;
 }
 
 
