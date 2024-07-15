@@ -159,8 +159,8 @@
 		中型以上客车<br>
 		中型以上货车<br>
 		危险品车	
-		</td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
-		<td rowspan="3">普通公路（xxx以外）</td>
+		</td>
+		<td rowspan="3" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">普通公路（xxx以外）</td>
 		<td>10-20</td>
 		<td>1</td>
 	  </tr>
