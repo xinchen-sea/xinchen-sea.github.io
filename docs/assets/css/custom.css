@@ -74,6 +74,7 @@
   --md-code-bg-color: #1d1d1d;
 } */
 
+/* 设定搜索框背景色 */
 input.md-search__input {
   background-color: #000;
 }
@@ -82,61 +83,12 @@ input.md-search__input {
   background-color: #333;
 }
 
-
-
+/* 版权申明的字体大小 */
 .md-copyright {
   font-size: .55rem;
 }
 
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=slate] .md-icon .light-mode,
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=slate] .md-icon .system-mode,
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=slate] .md-icon .unknown-mode {
-  display: none;
-}
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=default] .md-icon .dark-mode,
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=default] .md-icon .system-mode,
-body:not([data-md-prefers-color-scheme=true])[data-md-color-scheme=default] .md-icon .unknown-mode {
-  display: none;
-}
-body:not([data-md-prefers-color-scheme=true]):not([data-md-color-scheme=default]):not([data-md-color-scheme=slate]) .md-icon .dark-mode,
-body:not([data-md-prefers-color-scheme=true]):not([data-md-color-scheme=default]):not([data-md-color-scheme=slate]) .md-icon .light-mode,
-body:not([data-md-prefers-color-scheme=true]):not([data-md-color-scheme=default]):not([data-md-color-scheme=slate]) .md-icon .system-mode {
-  display: none;
-}
-body[data-md-prefers-color-scheme=true] .md-icon .dark-mode,
-body[data-md-prefers-color-scheme=true] .md-icon .light-mode,
-body[data-md-prefers-color-scheme=true] .md-icon .unknown-mode {
-  display: none;
-}
-
-@media screen and (max-width: 59.9375em) {
-  .md-nav__source {
-    background-color: var(--md-primary-fg-color);
-  }
-}
-
-@media screen and (max-width: 76.1875em) {
-  .md-nav--primary .md-nav__title {
-    background-color: var(--md-primary-fg-color);
-  }
-}
-
-[data-md-color-scheme="slate"] .md-annotation__index:after {
-  background-color: #4c4c4c;
-}
-
-input#mkdocs-content-password {
-  width: 6rem;
-}
-
-[data-md-color-scheme="slate"] input#mkdocs-content-password {
-  background-color: #161616;
-}
-
-.katex {
-  -webkit-text-stroke-width: 0.3px;
-}
-
+/* 修改 ol和li 列表定义 */
 .reference ol {
   counter-reset: li;
 }
@@ -150,196 +102,11 @@ input#mkdocs-content-password {
   font-size: 0.8em;
 }
 
-.riscv-table, .fl-table {
-  width: 100%;
-  display: inline-table;
-  table-layout: fixed;
-  /* border-collapse: collapse; */
-}
-.riscv-table-node {
-  text-align: center;
-  padding: 0.2em;
-  border: 0.04rem solid var(--md-default-fg-color);
-}
-.riscv-table-node-little, .fl-table-node {
-  text-align: center;
-  padding: 0.1em;
-  border: 0.04rem solid var(--md-default-fg-color);
-}
-.riscv-table-numnode {
-  font-size: .4rem;
-}
-.riscv-table-undernode {
-  font-size: .6rem;
-  text-align: center;
-}
-.riscv-table-numnodel {
-  font-size: .4rem;
-  text-align: left;
-}
-.riscv-table-numnoder {
-  font-size: .4rem;
-  text-align: right;
-}
-@media (max-width: 700px) {
-  .riscv-table-node, .riscv-table-node-little, .fl-table-node {
-    font-size: .6rem;
-  }
-}
-@media (max-width: 610px) {
-  .riscv-table-node, .riscv-table-node-little, .fl-table-node {
-    font-size: .5rem;
-  }
-}
-@media (max-width: 602px) {
-  .riscv-table-node, .riscv-table-node-little {
-    overflow-x: scroll;
-    word-wrap: normal;
-  }
-  .riscv-table-numnoder {
-    font-size: 0px;
-  }
-  .riscv-table-numnodel {
-    word-wrap: normal;
-  }
-}
-
-[data-md-color-scheme="slate"] .fl-affected {
-  background: linear-gradient(
-    45deg, 
-    rgb(255 255 255 / 30%) 0, rgb(255 255 255 / 30%) 25%, transparent 25%, transparent 50%, 
-    rgb(255 255 255 / 30%) 50%, rgb(255 255 255 / 30%) 75%, transparent 75%, transparent
-  );
-  background-size: 10px 10px;
-}
-[data-md-color-scheme="default"] .fl-affected {
-  background: linear-gradient(
-    45deg, 
-    rgb(0 0 0 / 30%) 0, rgb(0 0 0 / 30%) 25%, transparent 25%, transparent 50%, 
-    rgb(0 0 0 / 30%) 50%, rgb(0 0 0 / 30%) 75%, transparent 75%, transparent
-  );
-  background-size: 10px 10px;
-}
-[data-md-color-scheme="slate"] .fl-special {
-  background: rgb(255 255 255 / 30%);
-}
-[data-md-color-scheme="default"] .fl-special {
-  background: rgb(0 0 0 / 30%);
-}
-[data-md-color-scheme="slate"] .fl-undefined {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><g><line x1="0" y1="0" x2="100%" y2="100%" stroke="rgba(255,255,255,0.9)" stroke-width="1"/></g><g><line x1="0" y1="100%" x2="100%" y2="0" stroke="rgba(255,255,255,0.9)" stroke-width="1"/></g></svg>');
-}
-[data-md-color-scheme="default"] .fl-undefined {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><g><line x1="0" y1="0" x2="100%" y2="100%" stroke="rgba(0, 0, 0, 0.85)" stroke-width="1"/></g><g><line x1="0" y1="100%" x2="100%" y2="0" stroke="rgba(0, 0, 0, 0.85)" stroke-width="1"/></g></svg>');
-}
-
+/* emoji表情垂直对齐方式为上标 */
 .md-typeset :is(.emojione,.twemoji,.gemoji) {
   vertical-align: sub;
 }
 
-
-button[data-md-color-primary="red"] {
-    --primary-color: #ff0000; /* 设置按钮背景为红色 */
-}
-
-button[data-md-color-primary="pink"] {
-    --primary-color: #ff69b4; /* 设置按钮背景为粉色 */
-}
-
-button[data-md-color-primary="purple"] {
-    --primary-color: #800080; /* 设置按钮背景为紫色 */
-}
-
-button[data-md-color-primary="deep-purple"] {
-    --primary-color: #673ab7; /* 设置按钮背景为深紫色 */
-}
-
-button[data-md-color-primary="indigo"] {
-    --primary-color: #3f51b5; /* 设置按钮背景为靛青色 */
-}
-
-button[data-md-color-primary="blue"] {
-    --primary-color: #2196f3; /* 设置按钮背景为蓝色 */
-}
-
-button[data-md-color-primary="light-blue"] {
-    --primary-color: #03a9f4; /* 设置按钮背景为浅蓝色 */
-}
-
-button[data-md-color-primary="cyan"] {
-    --primary-color: #00bcd4; /* 设置按钮背景为青色 */
-}
-
-button[data-md-color-primary="teal"] {
-    --primary-color: #009688; /* 设置按钮背景为水鸭绿 */
-}
-
-button[data-md-color-primary="green"] {
-    --primary-color: #4caf50; /* 设置按钮背景为绿色 */
-}
-
-button[data-md-color-primary="light-green"] {
-    --primary-color: #8bc34a; /* 设置按钮背景为浅绿色 */
-}
-
-button[data-md-color-primary="lime"] {
-    --primary-color: #cddc39; /* 设置按钮背景为酸橙色 */
-}
-
-button[data-md-color-primary="yellow"] {
-    --primary-color: #ffeb3b; /* 设置按钮背景为黄色 */
-}
-
-button[data-md-color-primary="amber"] {
-    --primary-color: #ffc107; /* 设置按钮背景为琥珀色 */
-}
-
-button[data-md-color-primary="orange"] {
-    --primary-color: #ff9800; /* 设置按钮背景为橙色 */
-}
-
-button[data-md-color-primary="deep-orange"] {
-    --primary-color: #ff5722; /* 设置按钮背景为深橙色 */
-}
-
-button[data-md-color-primary="brown"] {
-    --primary-color: #795548; /* 设置按钮背景为棕色 */
-}
-
-button[data-md-color-primary="grey"] {
-    --primary-color: #9e9e9e; /* 设置按钮背景为灰色 */
-}
-
-button[data-md-color-primary="blue-grey"] {
-    --primary-color: #607d8b; /* 设置按钮背景为蓝灰色 */
-}
-
-button[data-md-color-primary="black"] {
-    --primary-color: #000000; /* 设置按钮背景为黑色 */
-}
-
-button[data-md-color-primary="white"] {
-    --primary-color: #ffffff; /* 设置按钮背景为白色 */
-}
-
-button {
-    background-color: var(--primary-color); /* 应用变量作为按钮的背景颜色 */
-    color: #ffffff; /* 设置文字颜色为白色 */
-    padding: 5px 10px; /* 设置按钮内边距 */
-    border: none; /* 去掉按钮边框 */
-    cursor: pointer; /* 设置光标样式为指针 */
-    margin: 5px; /* 设置按钮间距 */
-    border-radius: 4px; /* 设置按钮圆角 */
-} 
-
-code {
-    hl-color: ; /* 应用变量作为背景色 */
-    color: #333; /* 设置前景色（文字颜色） */
-}
-
-:root > * {
-  --md-code-hl-string-color: var(--primary-color);
-}
 
 
 
