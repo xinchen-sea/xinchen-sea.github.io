@@ -42,7 +42,6 @@ theme:
     # Palette（调色板） toggle for light mode(浅色模式)
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
       accent: indigo
       toggle:
         icon: material/brightness-7
