@@ -11,10 +11,10 @@
 
 
 
-原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：     
+原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：       
 默认颜色：`indigo`
 
-!!! tips
+!!! tips "快来试试吧"
 <div class="mdx-switch">
   <button data-md-color-primary="red"><code>red</code></button>
   <button data-md-color-primary="pink"><code>pink</code></button>
