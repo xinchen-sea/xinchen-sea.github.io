@@ -29,8 +29,6 @@ extra:
 plugins:
   - privacy
   - tags
-  - statistics:
-      words_per_minute: 200
   - glightbox:
       width: 80%
   - search:
