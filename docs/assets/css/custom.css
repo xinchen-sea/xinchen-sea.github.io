@@ -345,7 +345,7 @@ button {
 } 
 
 code {
-    bg-color: var(--primary-color); /* 应用变量作为背景色 */
+    hl-color: var(--primary-color); /* 应用变量作为背景色 */
     color: #333; /* 设置前景色（文字颜色） */
     padding: 10px; /* 可选：设置内边距 */
     border-radius: 5px; /* 可选：设置圆角 */
