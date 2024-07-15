@@ -91,9 +91,9 @@ input.md-search__input {
   background-color: #000;
 }
 
-[data-md-color-scheme="slate"] .md-typeset .md-content__button {
+/*[data-md-color-scheme="slate"] .md-typeset .md-content__button {
   color: #555555;
-} 
+} */
 
 .md-copyright {
   font-size: .55rem;
@@ -333,7 +333,7 @@ button[data-md-color-primary="white"] {
     --primary-color: #ffffff; /* 设置按钮背景为白色 */
 }
 
-/*button {
+button {
     background-color: var(--primary-color); /* 应用变量作为按钮的背景颜色 */
     color: #ffffff; /* 设置文字颜色为白色 */
     padding: 5px 10px; /* 设置按钮内边距 */
@@ -341,7 +341,7 @@ button[data-md-color-primary="white"] {
     cursor: pointer; /* 设置光标样式为指针 */
     margin: 5px; /* 设置按钮间距 */
     border-radius: 4px; /* 设置按钮圆角 */
-} */
+} 
 
 code {
     background-color: var(--primary-color); /* 应用变量作为背景色 */
