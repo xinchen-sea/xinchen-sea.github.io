@@ -1,11 +1,5 @@
 
-:root {
-  --md-text-font: "JetBrains Mono", "LXGW WenKai Screen"; 
-  --md-code-font: "JetBrains Mono";
-}
-
-
-
+/* 获取屏幕宽度，以调整页面大小 */
 @media screen and (min-width: 960px) {
   html {
     font-size: 137.5%;
@@ -24,7 +18,7 @@
   }
 } 
 
-
+/* 自定义不同字体类型大小、宽度等参数 */ 
 .md-typeset h1, .md-typeset h2 {
   font-weight: 600;
 }
@@ -50,7 +44,7 @@
 }
 
 
-/* 修改主题颜色参数
+/* 修改主题颜色参数，有另外的设置
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #efefef;
   --md-primary-bg-color: #000000;
@@ -83,18 +77,15 @@
   --md-code-bg-color: #1d1d1d;
 } */
 
-
 input.md-search__input {
-  background-color: #fff;
-}
-
-[data-md-color-scheme="slate"] input.md-search__input {
   background-color: #000;
 }
 
-/*[data-md-color-scheme="slate"] .md-typeset .md-content__button {
-  color: #555555;
-} */
+[data-md-color-scheme="slate"] input.md-search__input {
+  background-color: #fff;
+}
+
+
 
 .md-copyright {
   font-size: .55rem;
