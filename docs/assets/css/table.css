@@ -6,7 +6,7 @@
 
 /*使用外边距将表格居中*/
     .custom-table-margin {
-        width: 100%;
+        width: auto;
         border-collapse: collapse;
         border: 1px solid #ddd;
         margin: 0 auto; /* 将表格水平居中 */
@@ -22,7 +22,7 @@
 
 /* 使用定位属性将表格固定在页面的特定位置 */
     .custom-table-position {
-        width: 100%;
+        width: auto;
         border-collapse: collapse;
         border: 1px solid #ddd;
         /*position: absolute; /* 使用绝对定位 */
