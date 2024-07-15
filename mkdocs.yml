@@ -2,14 +2,14 @@
 site_name: xinchen-sea's banality
 site_author: xinchen-sea
 site_description: 喜欢螺旋式上升的陈词滥调
-site_url: "https://www.xinchen-sea.com"
+site_url: "https://xinchen-sea.com"
 
 # repository(库) information
 # repo_name: 'xinchen-sea/nonsense'
 # repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 
 # copyright
-copyright: Copyright &copy; 2023-present <a href="https://github.com/xinchen-sea" target="_blank" rel="noopener noreferrer">xinchen-sea</a>
+copyright: Copyright &copy; 2024-present <a href="https://github.com/xinchen-sea" target="_blank" rel="noopener noreferrer">xinchen-sea</a>
 
 #cookie
 extra:
