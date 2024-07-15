@@ -24,27 +24,6 @@ extra:
     actions:
       - accept
       - manage
-
-#插件
-plugins:
-  - privacy
-  - tags
-  - glightbox:
-      width: 80%
-  - search:
-      lang:
-        - zh
-        - en
-        - ja
-      separator: '[\s\u200b\-]'
-#  - glightbox #git action跑不起来
-  - git-revision-date-localized:
-      type: datetime
-      timezone: Asia/Shanghai
-      locale: zh
-      enable_creation_date: true
-      exclude:
-        - index.md
         
 theme:
   name: material
@@ -117,7 +96,6 @@ theme:
     - search.suggest        # 搜索建议
     - search.share          # 搜索共享
     
- 
 extra:
   #社交链接
   social:
@@ -178,12 +156,33 @@ markdown_extensions:
       custom_checkbox: true  # 启用自定义复选框样式
   - pymdownx.highlight:
       anchor_linenums: true  # 启用代码高亮行号锚点
-  - pymdownx.arithmatex:
-      generic: true  # 启用数学公式支持，并使用通用渲染器
-  - pymdownx.highlight:
-      anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.arithmatex:
+      generic: true  # 启用数学公式支持，并使用通用渲染器
+
+
+#插件
+plugins:
+  - privacy
+  - tags
+  #- glightbox:
+      width: 80%
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+      separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+      exclude:
+        - index.md
+  #- statistics:
+      page_check_metadata: comment
 
 
 
