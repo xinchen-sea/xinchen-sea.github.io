@@ -88,19 +88,6 @@ input.md-search__input {
   font-size: .55rem;
 }
 
-/* 修改 ol和li 列表定义 */
-.reference ol {
-  counter-reset: li;
-}
-.reference li {
-  padding-left: 0.7em;
-  counter-increment: li;
-  word-break: break-all;
-}
-.reference li::marker {
-  content: "[" counter(li) "]";
-  font-size: 0.8em;
-}
 
 /* emoji表情垂直对齐方式为上标 */
 .md-typeset :is(.emojione,.twemoji,.gemoji) {
