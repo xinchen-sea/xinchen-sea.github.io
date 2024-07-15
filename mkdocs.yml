@@ -28,9 +28,24 @@ extra:
 #插件
 plugins:
   - privacy
-  - search
   - tags
-
+  - statistics:
+      words_per_minute: 200
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+      separator: '[\s\u200b\-]'
+#  - glightbox #git action跑不起来
+  - git-revision-date-localized:
+      type: datetime
+      timezone: Asia/Shanghai
+      locale: zh
+      enable_creation_date: true
+      exclude:
+        - index.md
+        
 theme:
   name: material
   language: 'zh'
@@ -89,6 +104,7 @@ theme:
     - toc.follow                   # 锚点跟随
   #  - toc.integrate                # 目录混合
     - navigation.tabs              # 导航选项卡
+  # - navigation.tabs.sticky # 滚动是隐藏顶部nav，需要配合navigation.tabs使用
   #  - header.autohide              # 滑动隐藏标题
     - navigation.expand            # 导航拓展，默认展开可折叠字部份
     - navigation.top               # 提供回到页面顶部的按钮
