@@ -126,62 +126,60 @@
 - 1.超速记分（外外6以下）
 	
   <div class="table-indent">
-  <table border="1">
-	<thead align="center" valign="center">
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
 	<tr>
-		<th>车辆类别</th>
-		<th> 道路情况</th> 
-		<th>超速范围/%</th>
-		<th>扣分</th>
+		<th style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">车辆类别</th>
+		<th style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;"> 道路情况</th> 
+		<th style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">超速范围/%</th>
+		<th style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">扣分</th>
 	</tr>
-	</thead>
-	<tbody align="center" valign="center">
+	<tbody>
 	  <tr>
-		<td rowspan="4">普通车（xxx以外）</td>
-		<td rowspan="2">普通公路（xxx以外）</td>
-		<td>20-50</td>
-		<td>3</td>
+		<td rowspan="4" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">普通车（xxx以外）</td>
+		<td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">普通公路（xxx以外）</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20-50</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
 	  </tr>
 	  <tr>
-		<td>50+</td>
-		<td>6</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50+</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	  </tr>
 	  <tr>
-		<td rowspan="2">高速 城快</td>
-		<td>20-50</td>
-		<td>6</td>
+		<td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">高速 城快</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20-50</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	  </tr>
 	  <tr>
-		<td>50+</td>
-		<td>12</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50+</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
 	  </tr>
 	  <tr>
-		<td rowspan="5">
+		<td rowspan="5" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
 		校车<br>
 		中型以上客车<br>
 		中型以上货车<br>
 		危险品车	
-		</td>
+		</td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
 		<td rowspan="3">普通公路（xxx以外）</td>
 		<td>10-20</td>
 		<td>1</td>
 	  </tr>
 	  <tr>
-		<td>20-50</td>
-		<td>6</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20-50</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	  </tr>
 	  <tr>
-		<td>50+</td>
-		<td>9</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50+</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">9</td>
 	  </tr>
 	  <tr>
-		<td rowspan="2">高速 城快</td>
-		<td>20-</td>
-		<td>6</td>
+		<td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">高速 城快</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;"20-</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	  </tr>
 	  <tr>
-		<td>20+</td>
-		<td>12</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20+</td>
+		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
 	  </tr>
 	</tbody>
   </table>
