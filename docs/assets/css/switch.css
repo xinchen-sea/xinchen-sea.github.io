@@ -1,0 +1,26 @@
+/* * copy by material/overrides/assets/stylesheets/custom.7c86dd97.min.css
+   *  comment by  chatGPT */
+
+/* 为开关按钮定义样式 */
+.md-typeset .mdx-switch button {
+  /* 将鼠标指针设置为指针形状，表示该元素是一个可点击的按钮 */
+  cursor: pointer;
+  /* 设置透明度的过渡效果，持续时间为0.25秒 */
+  transition: opacity .25s;
+}
+
+/* 定义当按钮处于获得焦点或被鼠标悬停时的样式 */
+.md-typeset .mdx-switch button:focus, .md-typeset .mdx-switch button:hover {
+  /* 将按钮的透明度设置为0.75，使按钮看起来略微透明 */
+  opacity: .75;
+}
+
+/* 为按钮内的 code 元素定义样式 */
+.md-typeset .mdx-switch button > code {
+  /* 设置 code 元素的背景颜色为 CSS 变量 --md-primary-fg-color 的值 */
+  background-color: var(--md-primary-fg-color);
+  /* 设置 code 元素的文本颜色为 CSS 变量 --md-primary-bg-color 的值 */
+  color: var(--md-primary-bg-color);
+  /* 将 code 元素的显示模式设置为 block，使其行为类似于块级元素 */
+  display: block;
+}
