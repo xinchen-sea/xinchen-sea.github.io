@@ -2,3 +2,36 @@
 .table-indent {
     padding-left: 40px; /*表格左缩进*/
 }
+
+
+    .custom-table-margin {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        margin: 0 auto; /* 将表格水平居中 */
+    }
+
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .custom-table-position {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        position: absolute; /* 使用绝对定位 */
+        top: 50px; /* 距离顶部 50 像素 */
+        left: 50px; /* 距离左侧 50 像素 */
+    }
+
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
