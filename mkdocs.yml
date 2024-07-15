@@ -48,11 +48,12 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    # auto
+    # auto切换模式
    # - media: "(prefers-color-scheme)"
    #   to ggle:
    #     icon: material/link
    #     name: Switch to light mode
+ 
   #一些标签图标
   icon:
     logo: material/library
@@ -72,26 +73,28 @@ theme:
 
   #字体
   font: 
-    text: Roboto
+    text: Roboto   # 可自定义字体，详见fonts.css
     code: Roboto Mono
-
+  # 功能添加
   features:
     # 导航栏功能
     - navigation.instant
     - navigation.instant.prefetch  # 即时预取
     - navigation.tracking          # 锚点追踪
     - toc.follow                   # 锚点跟随
-  #  - toc.integrate                # 目录混合
+  #  - toc.integrate                # 左右目录混合
     - navigation.tabs              # 导航选项卡
-  # - navigation.tabs.sticky # 滚动是隐藏顶部nav，需要配合navigation.tabs使用
+  # - navigation.tabs.sticky        # 将nav和tabs粘连起来，需要配合navigation.tabs使用
   #  - header.autohide              # 滑动隐藏标题
     - navigation.expand            # 导航拓展，默认展开可折叠字部份
     - navigation.top               # 提供回到页面顶部的按钮
     - navigation.footer            # 在页面底部显示导航链接
     - navigation.path              # 显示导航路径
     - navigation.indexes           # 带有章节索引页
-   
-    # 搜索设置
+    # 代码操作
+    - content.action.edit    # 编辑
+    - content.action.view    # 查看
+    # 搜索功能设置
     - search.highlight      # 搜索突出显示
     - search.suggest        # 搜索建议
     - search.share          # 搜索共享
