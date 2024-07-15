@@ -12,7 +12,7 @@
 
 
 原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：       
-默认颜色：`indigo`
+浅色(default)模式下默认颜色：`indigo`；深色模式下默认颜色：`black`
 
 !!! tip "快来试试吧"
     <div class="mdx-switch">
