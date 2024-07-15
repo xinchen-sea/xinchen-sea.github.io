@@ -11,7 +11,7 @@
         margin: 0 auto; /* 将表格水平居中 */
     }
 
-    .custom-table th, .custom-table td {
+    .custom-table-margin th, .custom-table-margin td {
         border: 1px solid #ddd;
         padding: 8px;
         text-align: center;
@@ -23,12 +23,15 @@
         width: 100%;
         border-collapse: collapse;
         border: 1px solid #ddd;
-        position: absolute; /* 使用绝对定位 */
-        top: 50px; /* 距离顶部 50 像素 */
-        left: 50px; /* 距离左侧 50 像素 */
+        /*position: absolute; /* 使用绝对定位 */
+        /*top: 50px; /* 距离顶部 50 像素 */
+        /*left: 50px; /* 距离左侧 50 像素 */
+        position: relative; /* 使用相对定位 */
+        top: 50px; /* 相对于其正常位置向下移动 50 像素 */
+        left: 50px; /* 相对于其正常位置向右移动 50 像素 */
     }
 
-    .custom-table th, .custom-table td {
+    .custom-table-position th, .custom-table-position td {
         border: 1px solid #ddd;
         padding: 8px;
         text-align: center;
