@@ -167,7 +167,7 @@ plugins:
   - privacy
   - tags
   #- glightbox:
-      width: 80%
+  #    width: 80%
   - search:
       lang:
         - zh
@@ -182,7 +182,7 @@ plugins:
       exclude:
         - index.md
   #- statistics:
-      page_check_metadata: comment
+  #    page_check_metadata: comment
 
 
 
