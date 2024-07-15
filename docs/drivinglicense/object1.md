@@ -188,15 +188,15 @@
   - 2.超载记分 
 		
    <div class="table-indent">
-   <table border="1">
-	<thead align="center" valign="center">
+   <table  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<thead  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
 	<tr>
 		<th>车辆类别</th>
 		<th>超载范围/%</th>
 		<th>扣分</th>
 	</tr>
 	</thead>
-	<tbody align="center" valign="center">
+	<tbody  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
 	<tr>
 		<td rowspan="3">7座以下载客汽车</td>
 		<td>20%-50%</td>
