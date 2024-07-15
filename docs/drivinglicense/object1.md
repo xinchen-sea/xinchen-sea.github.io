@@ -161,8 +161,8 @@
 		危险品车	
 		</td>
 		<td rowspan="3" style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">普通公路（xxx以外）</td>
-		<td>10-20</td>
-		<td>1</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">10-20</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">1</td>
 	  </tr>
 	  <tr>
 		<td style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20-50</td>
@@ -189,48 +189,50 @@
 		
    <div class="table-indent">
    <table  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
-	<thead  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<thead>
 	<tr>
-		<th>车辆类别</th>
-		<th>超载范围/%</th>
-		<th>扣分</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">车辆类别</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">超载范围/%</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">扣分</th>
 	</tr>
 	</thead>
-	<tbody  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<tbody>
 	<tr>
-		<td rowspan="3">7座以下载客汽车</td>
-		<td>20%-50%</td>
-		<td>3</td>
+		<td rowspan="3"  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">7座以下载客汽车</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20%-50%</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
 	</tr>
 	<tr>
-		<td>50%-100%</td>
-		<td>6</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50%-100%</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	</tr>
 	<tr>
-		<td>100%+</td>
-		<td>12</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">100%+</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
 	</tr>
 	<tr>
-		<td rowspan="3">7座以上载客汽车</td>
-		<td>20%-50%</td>
-		<td>6</td>
+		<td rowspan="3"  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">7座以上载客汽车</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20%-50%</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	</tr>
 	<tr>
-		<td>50%-100%</td>
-		<td>9</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50%-100%</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">9</td>
 	</tr>
 	<tr>
-		<td>100%+</td>
-		<td>12</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">100%+</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
 	</tr>	
 	<tr>
-		<td rowspan="2">校车 &nbsp 公路客运汽车<br>旅游客运汽车</td>
-		<td>20-</td>
-		<td>6</td>
+		<td rowspan="2"  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+			校车 &nbsp 公路客运汽车<br>旅游客运汽车
+		</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20-</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	</tr>
 	<tr>
-		<td>20+</td>
-		<td>12</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">20+</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
 	</tr>
 	</tbody>
    </table>
@@ -239,35 +241,35 @@
   - 3.超重记分
 
    <div class="table-indent">
-   <table border="1">
-	<thead align="center" valign="center">
+   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<thead>
 	<tr>
-		<th>车辆类别</th>
-		<th>超重范围/%</th>
-		<th>扣分</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">车辆类别</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">超重范围/%</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">扣分</th>
 	</tr>
 	</thead>
 	<tbody align="center" valign="center">
 	<tr>
-		<td rowspan="5">货车</td>
-		<td>30-</td>
-		<td>1</td>
+		<td rowspan="5"  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">货车</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">30-</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">1</td>
 	</tr>
 	<tr>
-		<td>30-50</td>
-		<td>3</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">30-50</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
 	</tr>
 	<tr>
-		<td>50+</td>
-		<td>6</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">50+</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
 	</tr>
 	<tr>
-		<td>长宽高超过规定</td>
-		<td>1</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">长宽高超过规定</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">1</td>
 	</tr>
 	<tr>
-		<td>违法载客</td>
-		<td>3</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">违法载客</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
 	</tr>
 	</tbody>
    </table>
@@ -337,20 +339,62 @@ _5.6	驾驶载货汽车载物超过最大允许总质量未达到百分之三十
   
   7.   号牌扣分
 
-   | 类别  | 扣分分值 |
-   | :---: | :---: |
-   | 不按规定安装（装反、螺丝松动） | 	3  |
-   | 未悬挂 故意遮挡 | 	9 |
-   |  污损伪造变造 | 12 |
+   <div class="table-indent">
+   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<thead>
+	<tr>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">类别</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">扣分</th>
+	</tr>
+	</thead>
+	<tbody align="center" valign="center">
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">不按规定安装（装反、螺丝松动）</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
+	</tr>
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">未悬挂 故意遮挡</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">9</td>
+	</tr>
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">污损伪造变造</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
+	</tr>
+	</tbody>
+   </table>
+   </div>
+
 
   8.	高速违法
 
-   类别 | 扣分分值
-   :--: |:--:
-   倒车、逆行、分隔带掉头	 | 12
-   停车 | 	9
-   占用应急车道	 | 6
-   不按规定车道、低速 | 	3
+   <div class="table-indent">
+   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+	<thead>
+	<tr>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">类别</th>
+		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">扣分</th>
+	</tr>
+	</thead>
+	<tbody align="center" valign="center">
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">不按规定车道、低速</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">3</td>
+	</tr>
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">占用应急车道</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">6</td>
+	</tr>
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">停车</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">9</td>
+	</tr>
+	<tr>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">倒车、逆行、分隔带掉头</td>
+		<td  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">12</td>
+	</tr>
+	</tbody>
+   </table>
+   </div>
 
    不避让，逆行3分；其他掉头，倒车1分
 
