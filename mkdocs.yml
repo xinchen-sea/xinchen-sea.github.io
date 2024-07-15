@@ -176,6 +176,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Testpage: testpage.md
   - 驾校:
     - drivinglicense/index.md
     - 科目一: drivinglicense/object1.md
