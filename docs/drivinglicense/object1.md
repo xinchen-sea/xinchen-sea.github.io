@@ -188,7 +188,7 @@
   - 2.超载记分 
 		
    <div class="table-indent">
-   <table  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+   <table  style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
 	<thead>
 	<tr>
 		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">车辆类别</th>
@@ -241,7 +241,7 @@
   - 3.超重记分
 
    <div class="table-indent">
-   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+   <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
 	<thead>
 	<tr>
 		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">车辆类别</th>
@@ -340,7 +340,7 @@ _5.6	驾驶载货汽车载物超过最大允许总质量未达到百分之三十
   7.   号牌扣分
 
    <div class="table-indent">
-   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+   <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
 	<thead>
 	<tr>
 		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">类别</th>
@@ -368,7 +368,7 @@ _5.6	驾驶载货汽车载物超过最大允许总质量未达到百分之三十
   8.	高速违法
 
    <div class="table-indent">
-   <table style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">
+   <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
 	<thead>
 	<tr>
 		<th  style="border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: middle;">类别</th>
