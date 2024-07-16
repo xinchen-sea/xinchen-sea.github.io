@@ -80,10 +80,8 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-  #字体
-  font: 
-    text: Roboto   # 可自定义字体，详见fonts.css
-    code: Roboto Mono
+  #字体，自定义字体，详见fonts.css
+  font: false #取消使用Google字体，使用系统字体
   # 功能添加
   features:
     # 导航栏功能
