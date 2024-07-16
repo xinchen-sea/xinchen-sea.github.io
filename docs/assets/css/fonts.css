@@ -44,10 +44,9 @@
 
 
 
-
 /*默认宋体*/
 body {
-    font-family: 'SimSun', sans-serif;
+    font-family:'Times New Roman'， 'SimSun', sans-serif;
 }
 
 /* 针对具体语言设置不同的字体 */
