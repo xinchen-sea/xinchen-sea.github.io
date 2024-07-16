@@ -31,7 +31,6 @@ theme:
   #custom_dir: overrides
   logo: assets/bql.ico   #logo
   favicon: assets/bql.ico    #网站图标
-  homepage: https://xinchen-sea.github.io/
   # 调色板
   palette:
     # Palette（调色板） toggle for light mode(浅色模式)
@@ -59,7 +58,11 @@ theme:
   icon:
     previous: fontawesome/solid/angle-left  
     next: fontawesome/solid/angle-right   # 页脚上/下页图标
-    logo: material/library
+    #top:	#返回顶部按钮
+    #edit:	#编辑当前页面
+    #view:	#查看页面源
+    #repo:	#存储库图标
+    # logo: material/library
     # 标注图标集 Octicons
     admonition:
       note: octicons/tag-16
@@ -96,14 +99,15 @@ theme:
     - navigation.path              # 显示导航路径
     - navigation.indexes           # 带有章节索引页
     # 代码操作
-    - content.action.edit    # 编辑
-    - content.action.view    # 查看
+    - content.action.edit    # 编辑页码源
+    - content.action.view    # 查看页码源
     # 搜索功能设置
     - search.highlight      # 搜索突出显示
     - search.suggest        # 搜索建议
     - search.share          # 搜索共享
     
 extra:
+  homepage: https://xinchen-sea.github.io/
   #社交链接
   social:
     - icon: fontawesome/brands/github
