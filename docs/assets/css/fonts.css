@@ -94,16 +94,20 @@ p {
 
 /* 设置主导航栏字体 */
 .md-nav__list a {
-    font-family: 'Times New Roman', 'SimSun', sans-serif;
-    font-weight: 600;
+    font-family: 'Times New Roman', 'fzxbsjt', sans-serif;
+    font-size: 16px; /* 设置字体大小 */
 }
 
 /* 设置当前激活项的字体 */
 .md-nav__list a.is-active {
-    font-family: 'Times New Roman', 'SimSun', sans-serif;
+    font-family: 'Times New Roman', 'fzxbsjt', sans-serif;
+    font-size: 18px; /* 设置字体大小 */
+    color: red; /* 例如，改变激活项的字体颜色 */
+    font-weight: bold; /* 使激活项的字体加粗 */
 }
 
 /* 设置侧边栏次级导航栏字体 */
 .md-sidebar--secondary .md-nav__list a {
-    font-family: 'Times New Roman', 'SimSun', sans-serif;
+    font-family: 'Times New Roman', 'fzxbsjt', sans-serif;
+    font-size: 14px; /* 设置字体大小 */
 }
