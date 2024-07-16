@@ -57,8 +57,8 @@ theme:
  
   #一些标签图标
   icon:
-    previous: fontawesome/solid/angle-left
-    next: fontawesome/solid/angle-right
+    previous: fontawesome/solid/angle-left  
+    next: fontawesome/solid/angle-right   # 页脚上/下页图标
     logo: material/library
     # 标注图标集 Octicons
     admonition:
