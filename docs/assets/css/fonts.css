@@ -95,7 +95,7 @@ p {
 /* 设置主导航栏字体 */
 .md-nav__list a {
     font-family: 'Times New Roman', 'SimSun', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* 设置当前激活项的字体 */
