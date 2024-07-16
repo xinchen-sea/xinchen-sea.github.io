@@ -106,6 +106,8 @@ p {
     font-weight: bold; /* 使激活项的字体加粗 */
 }
 
+/* 上面两项设置好像没用 */
+
 /* 设置侧边栏次级导航栏字体 */
 .md-sidebar--secondary .md-nav__list a {
     font-family: 'Times New Roman', 'fzxbsjt', sans-serif;
