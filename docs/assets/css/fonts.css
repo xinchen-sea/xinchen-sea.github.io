@@ -111,3 +111,14 @@ p {
     font-family: 'Times New Roman', 'fzxbsjt', sans-serif;
     font-size: 14px; /* 设置字体大小 */
 }
+
+/* 设置网页背景颜色 */
+body {
+    background-color: #f0f0f0;
+}
+
+/* 设置主内容区背景颜色 */
+.md-content {
+    background-color: #ffffff;
+}
+
