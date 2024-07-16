@@ -46,7 +46,7 @@
 
 /*默认宋体*/
 body {
-    font-family:'Times New Roman'， 'SimSun', sans-serif;
+    font-family:'Times New Roman', 'SimSun', sans-serif;
 }
 
 /* 针对具体语言设置不同的字体 */
@@ -89,7 +89,7 @@ h3 {
 
 
 p {
-    font-family: 'SimSun', sans-serif;
+    font-family: 'Times New Roman', 'SimSun', sans-serif;
 }
 
 /* 设置主导航栏字体 */
