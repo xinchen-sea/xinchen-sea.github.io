@@ -9,7 +9,29 @@
 !!! note "可能会有的东西"
     施工中......<br>
 
+Material for MkDocs支持两种配色方案：一种是浅色模式，称为`default` ，另一种是深色模式，称为 `slate`。单击图块以更改配色方案：   
+默认：浅色模式`default`
 
+!!! tip "快来试试吧"
+    <div class="mdx-switch">
+      <button data-md-color-scheme="default"><code>default</code></button>
+      <button data-md-color-scheme="slate"><code>slate</code></button>
+    </div>
+    <script>
+      var buttons = document.querySelectorAll("button[data-md-color-scheme]")
+      buttons.forEach(function(button) {
+        button.addEventListener("click", function() {
+          document.body.setAttribute("data-md-color-switching", "")
+          var attr = this.getAttribute("data-md-color-scheme")
+          document.body.setAttribute("data-md-color-scheme", attr)
+          var name = document.querySelector("#__code_0 code span.l")
+          name.textContent = attr
+          setTimeout(function() {
+            document.body.removeAttribute("data-md-color-switching")
+          })
+        })
+      })
+    </script>
 
 原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：       
 浅色(default)模式下默认颜色：`indigo`；深色模式下默认颜色：`black`
@@ -49,3 +71,5 @@
         })
       })
     </script>
+
+
