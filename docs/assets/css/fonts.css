@@ -91,3 +91,18 @@ h3 {
 p {
     font-family: 'SimSun', sans-serif;
 }
+
+/* 设置主导航栏字体 */
+.md-nav__list a {
+    font-family: 'Times New Roman', 'SimSun', sans-serif;
+}
+
+/* 设置当前激活项的字体 */
+.md-nav__list a.is-active {
+    font-family: 'Times New Roman', 'SimSun', sans-serif;
+}
+
+/* 设置侧边栏次级导航栏字体 */
+.md-sidebar--secondary .md-nav__list a {
+    font-family: 'Times New Roman', 'SimSun', sans-serif;
+}
