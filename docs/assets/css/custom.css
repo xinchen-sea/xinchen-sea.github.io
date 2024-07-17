@@ -16,59 +16,88 @@
   html {
     font-size: 137.5%;
   }
-} 
-
-/* 定义手写体  */
-@font-face {
-    font-family: "regular";
-    src: url('docs/assets/fonts/Regular.ttf') format('truetype');
 }
 
-/* 定义方正小标宋简体  */
+/* 定义手写体
 @font-face {
-    font-family: "title";
-    src: url('docs/assets/fonts/sum.TTF') format('truetype');
-}
-/* 定义 Times New Roman 常规样式 */
-@font-face {
-    font-family: "Times New Roman";
-    src: url('docs/assets/fonts/TIMES.TTF') format('truetype');
-}
+    font-family: "Oxygen";
+    src: url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap') format('woff2');
+}*/
 
-/* 定义 Times New Roman 粗体样式
-@font-face {
-    font-family: 'Times New Roman';
-    src: url('docs/assets/fonts/TIMESBD.TTF') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 
-/* 定义 Times New Roman 斜体样式
-@font-face {
-    font-family: 'Times New Roman';
-    src: url('docs/assets/fonts/TIMESI.TTF') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-/* 定义 Times New Roman 粗斜体样式
-@font-face {
-    font-family: 'Times New Roman';
-    src: url('docs/assets/fonts/TIMESBI.TTF') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}  */
-
-/* 自定义字体 */
+/* 自定义字体
 :root {
-  --md-text-font: "regular";
-  --md-code-font: "Times New Roman";
-  --md-title-font: "title";
+  --md-text-font:  "Oxygen";
+  --md-code-font: "JetBrains Mono";
+}*/
+
+:root {
+  --md-text-font: "JetBrains Mono", "LXGW WenKai Screen";
+  --md-code-font: "JetBrains Mono";
 }
 
-.md-typeset h1 {
-    font-size: 24px;
+h1 {
+  counter-reset: h2;
 }
+h2 {
+  counter-reset: h3;
+}
+h3 {
+  counter-reset: h4;
+}
+h4 {
+  counter-reset: h5;
+}
+h5 {
+  counter-reset: h6;
+}
+h2:before {
+  counter-increment: h2;
+  content: counter(h2);
+  margin-right: 0.8rem;
+}
+h3:before {
+  counter-increment: h3;
+  content: counter(h2) "." counter(h3);
+  margin-right: 0.8rem;
+}
+h4:before {
+  counter-increment: h4;
+  content: counter(h2) "." counter(h3) "." counter(h4);
+  margin-right: 0.8rem;
+}
+h5:before {
+  counter-increment: h5;
+  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5);
+  margin-right: 0.8rem;
+}
+h6:before {
+  counter-increment: h6;
+  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6);
+  margin-right: 0.8rem;
+}
+
+.md-typeset h1, .md-typeset h2 {
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-weight: 500;
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  letter-spacing: 0;
+}
+
+.md-typeset {
+  font-size: .7rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+
 /* 除了<pre>元素内部的<code>元素之外的所有<code>元素，其字体大小继承父元素的字体大小*/
 .md-typeset code:not(pre code) {
   font-size: inherit;
@@ -86,27 +115,27 @@
 }
 
 
-/* 设置主导航栏字体 */
+/* 设置主导航栏字体
 .md-nav__list a {
     font-family: 'Times New Roman', sans-serif;
-    font-size: 16px; /* 设置字体大小 */
-}
+    font-size: 16px; /* 设置字体大小
+}*/
 
-/* 设置当前激活项的字体 */
+/* 设置当前激活项的字体
 .md-nav__list a.is-active {
     font-family: 'Times New Roman', sans-serif;
-    font-size: 18px; /* 设置字体大小 */
-    color: red; /* 例如，改变激活项的字体颜色 */
-    font-weight: bold; /* 使激活项的字体加粗 */
-}
+    font-size: 18px; /* 设置字体大小
+    color: red; /* 例如，改变激活项的字体颜色
+    font-weight: bold; /* 使激活项的字体加粗
+}*/
 
 /* 上面两项设置好像没用 可能指令不太对 */
 
-/* 设置侧边栏次级导航栏字体 */
+/* 设置侧边栏次级导航栏字体
 .md-sidebar--secondary .md-nav__list a {
     font-family: 'Times New Roman', 'Simsun', sans-serif;
-    font-size: 14px; /* 设置字体大小 */
-}
+    font-size: 14px; /* 设置字体大小
+} */
 
 .md-content{
     background-color: -moz-default-background-color;
