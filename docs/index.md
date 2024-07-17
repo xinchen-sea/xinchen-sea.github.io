@@ -1,9 +1,10 @@
-<h1>欢迎来到尘心的nabality</h1>
+# 欢迎来到尘心的truism
 
-由于尘心（chenxin）重名的比较多，故改名心尘大海（[xinchen-sea](https://github.com/xinchen-sea)）<br>
-看到了很多大佬都在使用这种形式的笔记（[SAVIA的外装大脑](https://savia7582.github.io/Exterior/)、[PhilFan的笔记本](https://www.philfan.cn/)...）,我很心动，故于暑假期间开始学习使用GitHub，打造属于自己的网页<br>
+尘心（chenxin）网名已存，故取名心尘大海（[xinchen-sea](https://github.com/xinchen-sea)）<br>
+看到了很多大佬都在使用这种mkdocs for material形式的笔记本（[鹤翔万里的个人笔记本](https://note.tonycrane.cc/)、[SAVIA的外装大脑](https://savia7582.github.io/Exterior/)、[PhilFan的笔记本](https://www.philfan.cn/)...）,我很心动，故学之，努力打造属于自己mkdocs<br>
 本网页用于记录笔者的包括但不限于笔记和心得<br>
-如果你觉得我的nabality（陈词滥调）对你有用的话，不妨动动小手点一个star！<br>
+说的都是老生常谈，故曰truism（也可以翻译成“真理”/doge）<br>
+如果你觉得我的truism（陈词滥调）对你有用的话，不妨动动小手点一个star！<br>
 
 
 !!! note "可能会有的东西"
@@ -11,7 +12,7 @@
 
 
 
-原色用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改原色：       
+primary用于标题、侧边栏、文本链接和其他几个组件。单击图块以更改primary：       
 浅色(default)模式下默认颜色：`indigo`；深色模式下默认颜色：`black`
 
 !!! tip "快来试试吧"

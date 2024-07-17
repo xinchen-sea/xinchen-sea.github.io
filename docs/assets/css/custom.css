@@ -18,27 +18,108 @@
   }
 } 
 
-/* 自定义不同标题字体类型粗细、字母间距等参数 */ 
-.md-typeset h1, .md-typeset h2 {
-  font-weight: 600;
+/* 定义手写体  */
+@font-face {
+    font-family: "regular";
+    src: url('docs/assets/fonts/Regular.ttf') format('truetype');
 }
 
-.md-typeset h3 {
-  font-weight: 500;
+/* 定义方正小标宋简体  */
+@font-face {
+    font-family: "title";
+    src: url('docs/assets/fonts/sum.TTF') format('truetype');
+}
+/* 定义 Times New Roman 常规样式 */
+@font-face {
+    font-family: "Times New Roman";
+    src: url('docs/assets/fonts/TIMES.TTF') format('truetype');
 }
 
-.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
-  letter-spacing: 0;
+/* 定义 Times New Roman 粗体样式
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESBD.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-.md-typeset {
-  font-size: .7rem;
-}   /*字体大小设置为0.7rem*/
+/* 定义 Times New Roman 斜体样式
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
+/* 定义 Times New Roman 粗斜体样式
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('docs/assets/fonts/TIMESBI.TTF') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}  */
+
+/* 自定义字体 */
+:root {
+  --md-text-font: "regular";
+  --md-code-font: "Times New Roman";
+  --md-title-font: "title";
+}
+
+.md-typeset h1 {
+    font-size: 24px;
+}
 /* 除了<pre>元素内部的<code>元素之外的所有<code>元素，其字体大小继承父元素的字体大小*/
 .md-typeset code:not(pre code) {
   font-size: inherit;
-}  
+}
+
+/* 版权申明的字体大小 */
+.md-copyright {
+  font-size: .55rem;
+}
+
+
+/* emoji表情垂直对齐方式为上标 */
+.md-typeset :is(.emojione,.twemoji,.gemoji) {
+  vertical-align: sub;
+}
+
+
+/* 设置主导航栏字体 */
+.md-nav__list a {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px; /* 设置字体大小 */
+}
+
+/* 设置当前激活项的字体 */
+.md-nav__list a.is-active {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18px; /* 设置字体大小 */
+    color: red; /* 例如，改变激活项的字体颜色 */
+    font-weight: bold; /* 使激活项的字体加粗 */
+}
+
+/* 上面两项设置好像没用 可能指令不太对 */
+
+/* 设置侧边栏次级导航栏字体 */
+.md-sidebar--secondary .md-nav__list a {
+    font-family: 'Times New Roman', 'Simsun', sans-serif;
+    font-size: 14px; /* 设置字体大小 */
+}
+
+.md-content{
+    background-color: -moz-default-background-color;
+}
+/* 不同模式下的网页及内容区背景颜色
+[data-md-color-scheme="default"] {
+    --md-default-bg-color:  #f0f0f0 /* 设置网页背景颜色
+    --md-content-background-color: #ffffff;/* 设置主内容区背景颜色
+}
+[data-md-color-scheme="slate"] {
+    --md-content-background-color: #000000;
+}*/
+
 
 
 /* 修改主题颜色参数，有另外的设置
@@ -82,20 +163,6 @@ input.md-search__input {
 [data-md-color-scheme="slate"] input.md-search__input {
   background-color: #333;
 }
-
-/* 版权申明的字体大小 */
-.md-copyright {
-  font-size: .55rem;
-}
-
-
-/* emoji表情垂直对齐方式为上标 */
-.md-typeset :is(.emojione,.twemoji,.gemoji) {
-  vertical-align: sub;
-}
-
-
-
 
 
 

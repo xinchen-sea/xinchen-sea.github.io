@@ -12,22 +12,8 @@ repo_url: 'https://github.com/xinchen-sea/xinchen-sea.github.io'
 edit_uri: edit/main/docs/
 
 # copyright
-copyright: Copyright &copy; 2024-present <a href="https://github.com/xinchen-sea" target="_blank" rel="noopener noreferrer">xinchen-sea</a>
+copyright: Copyright &copy; 2024-present <a href="https://github.com/xinchen-sea" target="_blank" rel="no-opener no-referrer">xinchen-sea</a>
 
-#cookie
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-    analytics: Custom name
-    actions:
-      - accept
-      - manage
-        
 theme:
   name: material
   language: 'zh'
@@ -53,7 +39,7 @@ theme:
         name: 切换到浅色模式
     # auto切换模式
    # - media: "(prefers-color-scheme)"
-   #   to ggle:
+   #   toggle:
    #     icon: material/link
    #     name: Switch to light mode
  
@@ -81,7 +67,7 @@ theme:
       quote: octicons/quote-16
 
   #字体，自定义字体，详见fonts.css
-  font: false #取消使用Google字体，使用系统字体
+  font: false  #取消使用Google字体，使用系统字体
   # 功能添加
   features:
     # 导航栏功能
@@ -103,7 +89,7 @@ theme:
     - content.action.view    # 查看页码源
     - content.code.annotate  # 选择代码复制
     - content.code.copy      # 复制代码
-    # - content.code.select
+    - content.code.select    # 选择代码复制
     # - content.footnote.tooltips
     # - content.tabs.link
     # 搜索功能设置
@@ -112,6 +98,18 @@ theme:
     - search.share          # 搜索共享
     
 extra:
+  #cookie
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    analytics: Custom name
+    actions:
+      - accept
+      - manage
   homepage: https://xinchen-sea.github.io/
   #社交链接
   social:
@@ -133,15 +131,14 @@ extra:
       link: /zh/
       lang: zh
 
-
+# 自定义 css 扩展
 extra_css:
   - 'assets/css/table.css'   # 表格设置
-  - 'assets/css/fonts.css'   # 字体设置
   - 'assets/css/custom.css'  # 外观设置
   - 'assets/css/switch.css'  # 外观设置
 
+# Markdown扩展
 markdown_extensions:
-  # 基础Markdown扩展
   - abbr             # 支持缩写
   - footnotes        # 支持脚注
   - tables           # 支持表格
@@ -201,6 +198,8 @@ plugins:
   #- statistics:
   #    page_check_metadata: comment
 
+extra_javascript:
+  - assets/js/mermaid.min.js
 
 
 
