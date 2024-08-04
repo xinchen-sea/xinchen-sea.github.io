@@ -206,13 +206,7 @@ extra_javascript:
 
 
 nav:
-  - Home: index.md
-  - Testpage: testpage.md
-  - 驾校:
-    - drivinglicense/index.md
-    - 科目一: drivinglicense/object1.md
-    - 科目二、三: drivinglicense/object2&3.md
-    - 科目四: drivinglicense/object4.md
+  - Home: index.html
 
 
 
