@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://xinchen-sea.com/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xinchen-sea.com/testpage/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xinchen-sea.com/drivinglicense/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xinchen-sea.com/drivinglicense/object1/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xinchen-sea.com/drivinglicense/object2%263/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xinchen-sea.com/drivinglicense/object4/</loc>
+         <lastmod>2024-08-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
