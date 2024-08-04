@@ -1,7 +1,7 @@
 # 欢迎来到尘心的truism
 
 尘心（chenxin）网名已存，故取名心尘大海（[xinchen-sea](https://github.com/xinchen-sea)）<br>
-看到了很多大佬都在使用这种mkdocs for material形式的笔记本（[鹤翔万里的个人笔记本](https://note.tonycrane.cc/)、[SAVIA的外装大脑](https://savia7582.github.io/Exterior/)、[PhilFan的笔记本](https://www.philfan.cn/)...）,我很心动，故学之，努力打造属于自己mkdocs<br>
+看到了很多大佬都在使用这种mkdocs for material形式的笔记本（[鹤翔万里的个人笔记本](https://note.tonycrane.cc/)、[SAVIA的外装大脑](https://savia7582.github.io/Exterior/)、[PhilFan的笔记本](https://www.philfan.cn/)...）,有样学样，想打造属于自己mkdocs<br>
 本网页用于记录笔者的包括但不限于笔记和心得<br>
 说的都是老生常谈，故曰truism（也可以翻译成“真理”/doge）<br>
 如果你觉得我的truism（陈词滥调）对你有用的话，不妨动动小手点一个star！<br>
